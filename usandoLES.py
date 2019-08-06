@@ -3,9 +3,15 @@ import Les
 l = Les.Les()
 
 l.inserirFim("A")
+l.inserirFim("B")
 if not l.estaCheio():
-    l.inserirFim("B")
-l.inserirFim("C")
+    l.inserirFim("C")
+
+l.show()
+l.removerFim()
+l.show()
+
+ 
 l.inserirFim("D")
 l.inserirFim("E")
 if not l.estaCheio():

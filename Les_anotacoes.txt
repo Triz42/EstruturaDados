@@ -1,0 +1,4 @@
+Lista Estática Sequencial
+
+TAD (Tipo Abstrato de Dados) que trabalha os dados armazenados de um forma sequencial e em posição contiguas.
+TAD - Conjunto de valores e conjunto de operações sobre estes valores.

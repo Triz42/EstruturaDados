@@ -1,17 +1,17 @@
 class Les():
     
     def __init__(self):
-        self.lista = [None, None, None, None, None]
+        self.vet = [None, None, None, None, None]
         self.quant = 0
         
     def inserirFim(self,valor):
-        self.lista[self.quant] = valor
+        self.vet[self.quant] = valor
         self.quant +=1
 
     def show(self):
         i = 0
         while i < self.quant:
-            print(self.lista[i])
+            print(self.vet[i])
             i+=1
     def removerFim(self):
         self.quant -= 1
@@ -20,12 +20,12 @@ class Les():
 
     def estaVazio(self): return self.quant == 0
 
-    def getPrim(self): return self.lista[0]
+    def getPrim(self): return self.vet[0]
 
-    def getUlt(self): return self.lista[self.quat -1]
+    def getUlt(self): return self.vet[self.quat -1]
 
     def inserirInicio(self, valor):
-        self.lista[0] = valor
+        self.vet[0] = valor
 
     def removerInicio(self):
-        self.lista[0] = None
+        self.vet[0] = None
