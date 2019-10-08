@@ -1,0 +1,35 @@
+O que a camada faz? 
+O que ela Recebe de Informação (de quem tmb)? 
+e o que ela passa pra outra camada (e qual camada)?
+
+Transporte
+*Protocolo de IP
+*Serviço confiavel de entrega de Dados das aplicações
+* Ela guia as informações entre as camadas 1 a 3, e 5 a 7 / Camada intermediaria.
+
+///Principais Serviços
+
+- Controle de Conexão
+	Orientado a Coneção
+	Não orientado a Coneção
+- Fragmentação
+	Feita entre o TRANSMISSOR e o RECEPTOR
+	Fragmenta a informação em pacotes para trafegar na rede
+- Endereçamento
+	 A camada de transporte oferece à camada de aplicação a função de endereçamento, 
+	onde  os  serviços  são  identificados  pela  sua  porta  
+- Confiabilidade
+	Controle de fluxo
+	Controle de erros
+	Controle de congestionamento e Qualidade de Serviço
+///TCP
+| Estabelecimento  da  ligação | -> | Transferência | -> | Término  de  ligação |
+
+O QUE A CAMADA FAZ?
+	Ela é responsavel por enviar para as camadas seguintes os dados recebidos de outras camadas. Ela utiliza do protocolo TCP para estabelecer, manter e finalizar uma ligação segura. O TCP é mais seguro pq ele envia uma mensagem de confirmação para o servidor e aguarda por um retorno, se n tiver um, ela tenta de novo. Ela ta estabelecendo a ligação, esperando uma confirmação, quando ela tem uma confirmação, ela envia os dados (manter/ transferencia) até finalizar. ORIENTADO A CONEXÃO
+UDP É PACOTES NÃO ORIENTADOS A CONEXÃO
+
+- Cria e faz manutenções de conexões realizando o controle de erros e fluxo de dados
+
+O QUE ELA RECEBE DE INFORMAÇÃO?
+	
